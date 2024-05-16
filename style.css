@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:  'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: black;
+} 
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+    height: 700px;
+    position: relative;
+    z-index: -2;
+
+}
+.main .opacity{
+    height: 700px;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+nav{
+    width:90%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 80px;
+}
+.main img{
+    width: 150px;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 4px;
+}
+.red{
+    background-color: red;
+}
+
+.hero{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+    gap: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: xx-large;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    
+}
+input{
+    height: 40px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.616);
+    font-size: 17px;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.hero-btn .btn{
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid white;
+    margin: 4px;
+    font-size: larger;
+}
+.space{
+    background-color: rgb(49, 49, 49);
+    height: 7px;
+    position: relative;
+    /* top: 0; */
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 70vw;
+    margin: auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: min(450px,60vw);
+    height: 400px;
+    justify-content: center;
+}
+.text>:nth-child(1){
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.first .tv{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.tv img{
+    position: relative;
+    top: 13px;
+    width: 675px;
+}
+.tv video{
+    position: absolute;
+    align-items: center;
+    width: 505px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
