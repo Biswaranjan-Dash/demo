@@ -145,9 +145,17 @@ input{
     z-index: -1;
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 900px){
+    .tv img{
+        width: 375px;
+    }
+    .tv video{
+        width: 300px;
+    }
+    .text>:nth-child(1){
+        font-size: 38px;
+    }
+    .first{
+        font-size: 19px;
+    }
+}
