@@ -67,6 +67,8 @@ nav{
     gap: 20px;
     font-size: 21px;
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 .hero> :nth-child(1){
     font-weight: 900;
@@ -111,16 +113,17 @@ input{
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    max-width: 70vw;
+    gap: 30px;
+    max-width: 90vw;
     margin: auto;
 }
 .text{
     display: flex;
     flex-direction: column;
     width: min(450px,60vw);
-    height: 400px;
+    height: 350px;
     justify-content: center;
+    gap: 20px;
 }
 .text>:nth-child(1){
     font-weight: 900;
@@ -132,6 +135,7 @@ input{
     position: relative;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 .tv img{
     position: relative;
@@ -145,17 +149,31 @@ input{
     z-index: -1;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1283px){
     .tv img{
-        width: 375px;
+        width: 80vw;
     }
     .tv video{
-        width: 300px;
+        width: 59vw;
     }
     .text>:nth-child(1){
-        font-size: 38px;
+        font-size: 36px;
     }
     .first{
+        font-size: 20px;
+        text-align: center;
+        max-width: 90%;
+        gap: 0px;
+    }
+    .text{
+        width: 100%;
+        height: 250px;
+    }
+    .hero{
         font-size: 19px;
+    }
+    .hero> :nth-child(1){
+        font-weight: 900;
+        font-size: 30px;
     }
 }
